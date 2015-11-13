@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Buyflix</title>
+    <!-- Bootstrap and jQuery -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- My own styles -->
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-inverse" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Buyflix</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="index.html">
+                <i class="fa fa-home"></i>
+                Home
+              </a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                <i class="fa fa-film"></i>
+                Genres
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Religion</a></li>
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Horror</a></li>
+                <li><a href="#">Drama</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#">
+                <i class="fa fa-user"></i>
+                My Account
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+      <h1 class="title">
+        Gurbani Simran
+        <span class="rating">PG-13</span>
+        <small class="text-muted">
+          <!-- Put stars here -->
+        </small>
+      </h1>
+
+      <div class="row">
+        <div class="col-md-2 text-center">
+          <p><img src="images/untitled.png"></p>
+          <p><a href="#" class="btn btn-sm btn-success"><i class="fa fa-shopping-cart"></i> $4 Buy in HD</a></p>
+          <p><strong>Genre:</strong> Religion</p>
+          <p><strong>Released:</strong> 1884</p>
+        </div>
+        <div class="col-md-5 summary">
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=Q8rN4VYfY4g" frameborder="0" allowfullscreen></iframe>
+          <h2 class= "summary-title" Summary</h2>
+          <p>
+            From the 10 Gurus of the Sikhs who wrote the GuruGranth Sahib. The Simran or Meditation Chant is timeless and ever calming.
+          </p>
+        </div>
+        <div class="col-md-3 actors">
+          <h2>Cast</h2>
+          <ul class="list-unstyled">
+            <li><a href="#">Guru Nanak Dev Ji</a> as First Guru of Sikhs</li>
+            <li><a href="#">Singer</a> as Reciter of the prayers</li>
+            <li><a href="#">Guru Gobind Singh Ji</a> as 10th Guru of Sikhs</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-9 col-md-offset-2">
+          
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-9 col-md-offset-2 reviews">
+          <h2 class="page-header">Reviews</h2>
+          <div class="review">
+            <h4>Gurveen says...</h4>
+            <h5>
+              Best Movie Ever!
+              <i class="fa fa-star"></i>
+            </h5>
+            <p>This is not like any film we have seen. It's incredible. I'm positive I'm going to see this movie again.</p>
+          </div>
+
+          <div class="review">
+            <h4>Balvindersays...</h4>
+            <h5>
+              It gives life a meaning
+              <!-- Put stars here -->
+            </h5>
+            <p>Meh.</p>
+          </div>
+
+          <div class="review">
+            <h4>Gogi says...</h4>
+            <h5>
+              Magnificant
+              <!-- Put stars here -->
+            </h5>
+            <p>This movie has got me thinking about God'!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-9 col-md-offset-2 reviews">
+          <h2 class="page-header">Information</h2>
+          <table class="table table-striped table-bordered">
+            <tr>
+              <td><strong>Studio</strong></td>
+              <td>Akal Takhat</td>
+            </tr>
+            <tr>
+              <td><strong>Run Time</strong></td>
+              <td>2 hr 30 min</td>
+            </tr>
+            <tr>
+              <td><strong>Format</strong></td>
+              <td>Widescreen</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
